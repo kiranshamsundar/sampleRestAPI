@@ -36,7 +36,7 @@ public class XMLServiceController {
     }
 
 
-    // The Java method will process HTTP GET requests
+    // The Java method will process HTTP POST requests
     @POST
     @Path("/post")
     @Produces({TEXT_XML})
